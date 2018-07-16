@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ChabeletsApp</string>
+
+    <!-- activity names -->
+    <string name="activity_registration">ChabeletsApp</string>
+
+        <!-- text labels -->
+        <string name="label_name">Name:</string>
+        <string name="label_email">Email address:</string>
+        <string name="label_password">Password:</string>
+        <string name="label_password_confirm">Retype password:</string>
+
+        <!-- button labels -->
+        <string name="button_register">sign in</string>
+
+        <!-- warnings -->
+        <string name="warning_name_empty">Name cannot be empty</string>
+        <string name="warning_name_lowercase">Name should start from an uppercase letter</string>
+        <string name="warning_email_empty">Email cannot be empty</string>
+        <string name="warning_email_invalid">Invalid email format</string>
+        <string name="warning_password_empty">Password cannot be empty</string>
+        <string name="warning_passwords_do_not_match">Passwords do not match</string>
+
+        <!-- info messages -->
+        <string name="info_registered">Registered. ObjectId: %s</string>
+
+        <!-- loading messages -->
+        <string name="loading_empty">Loading…</string>
+        <string name="loading_register">Sending registration request…</string>
+
+    <string name="successful_log">Hello, you\'re successfully logged</string>
+    <string name="have_no_account_activity_login">Have no account?</string>
+    <string name="login_activity_login">Login</string>
+    <string name="field_is_required_activity_login">Field is required</string>
+    <string name="title_location_permission">location permission</string>
+    <string name="text_location_permission">text_location_permission</string>
+    <string name="ok">ok</string>
+    <string name="add_photo">Add Photo</string>
+
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_activity_login"
+            android:textStyle="bold"
+            android:textSize="@dimen/abc_text_size_headline_material"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/loginEditTextLoginActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Login"/>
+
+        <EditText
+            android:id="@+id/passwordEditTextLoginActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textVisiblePassword"
+            android:hint="Password"/>
+
+        <Button
+            android:id="@+id/loginButtonLoginActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="login"/>
+
+        <TextView
+            android:id="@+id/registrationTextViewLoginActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/have_no_account_activity_login"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
